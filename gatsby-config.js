@@ -7,15 +7,15 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Delog`,
+    title: `Home`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://delog-w3layouts.netlify.com/`,
     home: {
-      title: `Hi! I'm Delog`,
-      description: `I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)`,
+      title: `Prophecy Web Solutions | Shawn Marcotte`,
+      description: `HTML | CSS | JavaScript | React | Ruby | Rails | Git | Github | Data Modeling | Agile Methodology | Project Management | MacOS/Windows | Microsoft Office | Proficient in Salesforce CRM | Phoenix Global Support | Blue Ocean Sales Training`,
     },
     /* W3Layouts domain verification key for contact forms https://my.w3layouts.com/Forms/ */
-    w3l_dom_key: `5e609f7a2d23fCF_Domain_verify` 
+    w3l_dom_key: `5e609f7a2d23fCF_Domain_verify`
   },
   plugins: [
     {
@@ -51,7 +51,7 @@ module.exports = {
         head: true,
       }
     },
-    `gatsby-plugin-sass`, 
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
   ],

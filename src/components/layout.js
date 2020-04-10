@@ -2,6 +2,8 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Navigation from "../components/navigation"
 import 'prismjs/themes/prism-okaidia.css';
+import linkedIn from "../../static/assets/LinkedIn.png";
+import github from "../../static/assets/github.png";
 
 export default ({ children }) => {
   const data = useStaticQuery(
@@ -25,7 +27,14 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; 2020 Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://w3layouts.com">W3Layouts</a></p>
+        <div className="footer">
+          <div><a href="https://github.com/shawnpmarcotte">
+            <img src={github} alt="github" className="github-logo" />
+          </a></div>
+          <div><a href="https://www.linkedin.com/in/shawn-paul-marcotte-799b31114/">
+            <img src={linkedIn} alt="LinkedIn" className="linkedin-logo" />
+          </a></div>
+        </div>
       </footer>
     </div>
   )
