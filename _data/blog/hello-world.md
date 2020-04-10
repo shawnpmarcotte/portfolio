@@ -1,10 +1,11 @@
 ---
 template: BlogPost
 path: /hello-world
-date: 2020-02-20T07:08:53.137Z
-title: Hello World
-thumbnail: ''
-metaDescription: Meta description for Hello World
+date: 2020-06-1T14:59:36.571Z
+title: YSK Artist - Digital Gallery | Web Application | Coming Soon!
+thumbnail: /assets/ysk2.jpeg
+
 ---
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique fugiat delectus pariatur blanditiis nulla soluta ratione nostrum, harum maiores adipisci a quod nobis cupiditate quae odit unde qui sit consequuntur.
+![Minion](https://www.perl.com/images/203/081F6A04-9E7B-11E5-B6F6-9162ABEC0845.jpeg)
+
